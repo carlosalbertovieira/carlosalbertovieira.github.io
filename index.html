@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!---Font awesome cdn link----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="main gradient-blue parallax">
+            <div id="header">
+                <div class="logo">
+                    <a href="#">Logo</a>
+
+                </div>
+                <ul>
+                    <li><a href="#">Me</a></li>
+                    <li><a href="#about-me-section"">About</a></li>
+                    <li><a href=" #certificates">Certificates</a></li>
+                    <li><a href="#Services">Services</a></li>
+
+                </ul>
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="fun">
+                <div class="yo">
+                    <div class="top-elements">
+                        <img src="img/img1.jpg" alt="">
+                        <img src="img/img2.png" alt="">
+                        <div class="content">
+
+
+                            <h3>Hello I'm</h3>
+                            <h2>Carlos<span>Vieira</span></h2>
+                            <p>A pasionate <strong>Math teacher </strong>and <strong> Web Developer</strong> from
+                                <strong>Uruguay!!</strong>
+                            </p>
+                            <div class="social">
+                                <div class="btn-contact">
+                                    <a href="mailto:carlosalbertovp96@gmail.com?subject=Asunto%20del%20correo&body=Hola,%20quiero%20contactarte." target="_blank">
+                                        <button>Contact me</button>
+                                    </a>
+                                    
+                                </div>
+                                <div class="social-icons">
+                                    <a href="https://www.facebook.com/keno.vieira20" target="_blank"
+                                        rel="Mi perfil de facebook">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="https://twitter.com/Kenovieiraa" target="_blank"
+                                        rel="Mi perfil de Twitter"><i class="fa-brands fa-twitter"></i></a>
+
+                                    <a href="https://www.linkedin.com/in/carlos-vieira-b51885249/" target="_blank"
+                                        rel="Mi perfil de linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+                                    <a href="https://www.instagram.com/keno_vieira/" target="_blank"
+                                        rel="Mi perfil de instagram"><i class="fa-brands fa-instagram"></i></a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="keno">
+                        <img src="img/keno.png" alt="">
+                    </div>
+                    <script>
+                        let menu = document.querySelector("ul");
+                        let bar = document.querySelector("#header");
+
+                        bar.addEventListener("click", function () {
+                            menu.classList.toggle("show")
+                        })
+
+
+                    </script>
+
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about-me smoke-black" id="about-me-section">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFrLls9MzE&#x2F;view?embed">
+                    <!-- Botón de descarga -->
+                    <a href="https://drive.google.com/file/d/1ABwAmobVq71toUWOgwyMICKsq4ZPXS-3/view?usp=sharing"
+                        download>
+                        <button>Descargar Currículum</button>
+                    </a>
+                </iframe>
+
+            </div>
+
+    </div>
+
+    <p class="about-me-text"></p>
+
+
+
+
+
+    </section>
+    <section class="skills gradient-blue" id="certificates">
+
+        <h2>Certificados</h2>
+        <div class="category" id="category1">
+            <h3>Programación</h3>
+            <div class="gallery">
+                <div class="certificate">
+                    <img src="img/Certificados/Programación/C1.png" alt="Certificado 1">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Programación/C2.png" alt="Certificado 2">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Programación/C3.png" Certificado 3">
+                </div>
+                <!-- Agrega más certificados en esta categoría -->
+            </div>
+        </div>
+        <div class="category" id="category2">
+            <h3>Docencia</h3>
+            <div class="gallery">
+                <div class="certificate">
+                    <img src="img/Certificados/Profesor/C1.png" alt="Certificado 1">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Profesor/C2.png" alt="Certificado 2">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Profesor/C3.png" alt="Certificado 3">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Profesor/C4.png" alt="Certificado 4">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Profesor/C5.png" alt="Certificado 5">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Profesor/C6.png" alt="Certificado 6">
+                </div>
+                <!-- Agrega más certificados en esta categoría -->
+            </div>
+        </div>
+        <!-- Agrega más categorías -->
+
+        <div class="category" id="category2">
+            <h3>Office</h3>
+            <div class="gallery">
+                <div class="certificate">
+                    <img src="img/Certificados/Office/C1.png" alt="Certificado 1">
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Office/C2.png" alt="Certificado 2">
+                </div>
+                <div class="gallery">
+                    <div class="certificate">
+                        <img src="img/Certificados/Office/C3.png" alt="Certificado 3">
+                    </div>
+                    <div class="certificate">
+                        <img src="img/Certificados/Office/C4.png" alt="Certificado 4">
+                    </div>
+                    <!-- Agrega más certificados en esta categoría -->
+                </div>
+            </div>
+            <div class="category" id="category2">
+                <h3>Otros</h3>
+                <div class="gallery">
+                    <div class="certificate">
+                        <img src="img/Certificados/Otros/C1.png" alt="Certificado 1">
+                    </div>
+                    <div class="certificate">
+                        <img src="img/Certificados/Otros/C2.png" alt="Certificado 2">
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img src="img/Certificados/Otros/C3.png" alt="Certificado 3">
+                </div>
+                <!-- Agrega más certificados en esta categoría -->
+            </div>
+        </div>
+
+    </section>
+    <section class="skills gradient-blue" id="Services">
+        <div id="services">
+            <h2 style="color: white;">Servicios</h2>
+            <p style="color: white; font-size: 18px; line-height: 1.5em;">
+                Como docente de matemática puedo brindarte clases particulares.
+                También es posible tener clases de Programación según el lenguaje que quieras aprender.
+                Si quieres contactarme no dudes en rellenar el siguiente formulario y estaré encantado de poder apoyarte.
+            </p>
+            <div class="imgstudy">
+                <img src="img/f1527-gato_leyendo_gif.gif" alt="" class="centered-image">
+                <img src="img/gohan-estudia_0.gif" alt="">
+                <img src="img/b38af68c1f8c09c660804faed75431bf.gif" alt="">
+            </div>
+            
+        </div>
+    
+        <div class="centered-form" style="text-align: center; margin-top: 10px;">
+            <form action="#" method="POST">
+                <label for="name" style="color: white; margin-bottom: 5px;">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre completo" required><br><br>
+    
+                <label for="asunto" style="color: white; margin-bottom: 5px;">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required><br><br>
+    
+                <label for="telefono" style="color: white; margin-bottom: 5px;">Celular:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Número de celular" required><br><br>
+    
+                <label for="message" style="color: white; margin-bottom: 5px;">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+    
+                <a href="mailto:carlosalbertovp96@gmail.com?subject=Asunto%20del%20correo&body=Hola,%20quiero%20contactarte." target="_blank" style="display: block; margin-top: 10px; color: white; text-decoration: none; background-color: #007BFF; padding: 5px 10px; border-radius: 5px;">Enviar</a>
+            </form>
+        </div>
+    </section>
+    
+    
+    
+        </div>
+    </section>
+    
+
+    </div>
+</body>
+
+</html>
